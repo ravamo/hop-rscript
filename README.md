@@ -17,7 +17,7 @@ R script plugin can be installed by performing the following steps:
 1. Copy the plugin folder (RScriptPlugin) into the folder of your Hop installation: apache-hop-client-{version}\hop\plugins\transforms
 2. Install R project from the site http://www.r-project.org/
 3.  Install rJava package in R by executing: install.packages("rJava")
-4. Copy JRI library rJava/jri/jri.dll (windows) or  rJava/jri/libjri.so (linux) to: data-integration/libswt/**{youroperation system}**, for example: data-integration/libswt/win64
+4. Copy JRI library rJava/jri/jri.dll (windows) or  rJava/jri/libjri.so (linux) to: hop/libswt/**{youroperation system}**, for example: hop/libswt/win64
 5. Specify location of R using R_HOME environment variable. (like:   C:\R\R-3.0.2).
 6. For windows, it is also needed to put in PATH variable the path to R.dll, for example: C:\R\R-{your vresion}\bin\{your operation system}
 
